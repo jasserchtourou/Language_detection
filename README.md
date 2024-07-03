@@ -13,6 +13,24 @@ Hugging Face: Language classification using the papluca/xlm-roberta-base-languag
 FastText: Language prediction using the lid.176.bin model from FastText.
 These methods are integrated into a PyTorch neural network model, enabling accurate language identification across various text inputs.
 
+---
+language:
+- en
+- ar
+- fr
+- es
+- pt
+- ja
+- it
+- de
+- ru
+- zh
+metrics:
+- accuracy
+- code_eval
+library_name: transformers
+pipeline_tag: text-classification
+
 ## Installation
 Clone this repository:
       git clone https://github.com/jasserchtourou/Language_detection.git
