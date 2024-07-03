@@ -1,0 +1,12 @@
+{
+    "do_lower_case": false,
+    "model_max_length": 512,
+    "padding_side": "right",
+    "special_tokens": {
+        "unk_token": "[UNK]",
+        "sep_token": "[SEP]",
+        "pad_token": "[PAD]",
+        "cls_token": "[CLS]",
+        "mask_token": "[MASK]"
+    }
+}

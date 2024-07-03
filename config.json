@@ -1,0 +1,9 @@
+{
+    "model_type": "LanguageIdentificationModel",
+    "input_size": 16,
+    "hidden_size": 128,
+    "output_size": 3,
+    "activation_function": "ReLU",
+    "optimizer": "SGD",
+    "learning_rate": 0.01
+}
